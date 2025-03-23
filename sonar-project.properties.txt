@@ -1,0 +1,18 @@
+sonar.projectKey=your_project_key
+sonar.projectName=Manger
+sonar.projectVersion=1.0
+
+sonar.java.binaries=StudentManagement/target/classes,StudentManagerManagement/target/classes,StudentRegistrationManagement/target/classes
+
+
+sonar.sources=StudentManagement/src,StudentManagerManagement/src,StudentRegistrationManagement/src
+sonar.language=java
+sonar.sourceEncoding=UTF-8
+sonar.host.url=http://localhost:9000
+
+
+
+
+
+# Authentication token (only one definition)
+sonar.login=squ_ae152426e4a628c3b2813db7e506d87c78cba07c
